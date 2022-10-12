@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/skyend/static/css/main.c4d026c1.css",
+    "main.js": "/skyend/static/js/main.ca16bdcb.js",
+    "static/js/787.042cf907.chunk.js": "/skyend/static/js/787.042cf907.chunk.js",
+    "static/media/rocketlogo.png": "/skyend/static/media/rocketlogo.81a3259bd7fec5b2cad0.png",
+    "static/media/litepaper.pdf": "/skyend/static/media/litepaper.a41b9e9d6d5e61974a7f.pdf",
+    "static/media/whitepaper.pdf": "/skyend/static/media/whitepaper.cffb930fe7972262f421.pdf",
+    "static/media/CabinSketch-Regular.ttf": "/skyend/static/media/CabinSketch-Regular.1d93d81d7a4dfe8dcbd7.ttf",
+    "static/media/Changa-VariableFont_wght.ttf": "/skyend/static/media/Changa-VariableFont_wght.7c1ac1cdea816bd063a7.ttf",
+    "static/media/CarterOne-Regular.ttf": "/skyend/static/media/CarterOne-Regular.077c4bbc891d504d9751.ttf",
+    "static/media/Michroma-Regular.ttf": "/skyend/static/media/Michroma-Regular.d2ad050949cf83809690.ttf",
+    "static/media/tokendistribution.jpg": "/skyend/static/media/tokendistribution.1af9897f0bc9163124f4.jpg",
+    "static/media/telegramIcon.png": "/skyend/static/media/telegramIcon.85c85a21cd5466d04886.png",
+    "static/media/discordIcon.png": "/skyend/static/media/discordIcon.88f6c5bbfb9946007293.png",
+    "static/media/stars2.png": "/skyend/static/media/stars2.29e32ab42b47ca4d43fa.png",
+    "index.html": "/skyend/index.html",
+    "main.c4d026c1.css.map": "/skyend/static/css/main.c4d026c1.css.map",
+    "main.ca16bdcb.js.map": "/skyend/static/js/main.ca16bdcb.js.map",
+    "787.042cf907.chunk.js.map": "/skyend/static/js/787.042cf907.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d026c1.css",
+    "static/js/main.ca16bdcb.js"
+  ]
+}
