@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Changa";
+  src: url(../../assets/fonts/Changa-VariableFont_wght.ttf);
+}
+#sdb {
+  font-family: Changa;
+
+  background: rgba(38, 58, 156, 0.2);
+  background: linear-gradient(
+    50deg,
+    rgba(38, 58, 156, 0.5),
+    rgba(252, 70, 107, 0.2) 100%
+  );
+  border: 1px solid rgba(252, 70, 106, 0.144);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+
+  font-size: 15px;
+  /* opacity: 0.3; */
+  animation: blink 20s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#sdb:hover {
+  animation: none;
+}
+#scd {
+  display: inline;
+  color: yellow;
+}
+#swr {
+  display: none;
+}
+@media only screen and (min-width: 1000px) {
+  #swr {
+    display: inline;
+    color: coral;
+  }
+  #scd {
+    display: none;
+  }
+}

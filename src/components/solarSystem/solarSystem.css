@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Cabin";
+  src: url(../../assets/fonts/CabinSketch-Regular.ttf);
+}
+
+#solarSystem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cabin";
+}
+
+#sun {
+  position: relative;
+  /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+
+  /* Play with these numbers to see what it does */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+
+  border-color: orange;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+
+  box-shadow: 0 0 128px red;
+  background: yellow;
+}
+#sun div {
+  color: black;
+}
+#earth {
+  /* Style your earth */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin-left: -25px;
+  margin-top: -48px;
+
+  border-color: blue;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+  background: lightblue;
+
+  -webkit-animation: spin-left 10s linear infinite;
+  -moz-animation: spin-left 10s linear infinite;
+  -ms-animation: spin-left 10s linear infinite;
+  -o-animation: spin-left 10s linear infinite;
+  animation: spin-left 10s linear infinite;
+}
+
+#earth-orbit {
+  /* For Section #2 */
+  position: absolute;
+
+  /* width: 400px;
+  height: 370px; */
+  width: 450px;
+  height: 450px;
+
+  border-width: 1px;
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.171);
+  border-radius: 50%;
+
+  -webkit-animation: spin-right 10s linear infinite;
+  -moz-animation: spin-right 10s linear infinite;
+  -ms-animation: spin-right 10s linear infinite;
+  -o-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+#earth div {
+}
+#moon {
+  /* Style your earth */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 1px 1px 16px 0px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: 1px 1px 16px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: 1px 1px 16px 0px rgba(255, 255, 255, 0.6);
+  background: lightgray;
+}
+#moon div {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  counter-reset: my-count 6;
+  animation: countdown 7s linear infinite;
+}
+#moon div::after {
+  content: counter(my-count);
+}
+#moon-orbit {
+  /* For Section #2 */
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+  margin-left: 158px;
+  margin-top: -85px;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.356);
+  border-radius: 50%;
+
+  -webkit-animation: spin-right 6s linear infinite;
+  -moz-animation: spin-right 6s linear infinite;
+  -ms-animation: spin-right 6s linear infinite;
+  -o-animation: spin-right 6s linear infinite;
+  animation: spin-right 6s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin-left {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin-left {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+/* countdown */
+/* https://codepen.io/raulsuescun/pen/dwLWyw */
+@keyframes countdown {
+  0% {
+  }
+  20% {
+    counter-increment: my-count -5;
+  }
+  40% {
+    counter-increment: my-count -4;
+  }
+  60% {
+    counter-increment: my-count -3;
+  }
+  80% {
+    counter-increment: my-count -2;
+  }
+  100% {
+    counter-increment: my-count -1;
+  }
+}
+
+/* legend */
+
+.legend {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgb(255, 100, 0);
+  background: radial-gradient(
+    circle,
+    rgb(255, 100, 0) 50%,
+    rgba(249, 255, 9, 0.9290091036414566) 100%
+  );
+  border: 1px solid rgba(255, 0, 0, 0.205);
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+
+  opacity: 0;
+  z-index: 1;
+}
+.legend:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}

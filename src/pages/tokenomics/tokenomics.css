@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Carterone";
+  src: url(../../assets/fonts/CarterOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Changa";
+  src: url(../../assets/fonts/Changa-VariableFont_wght.ttf);
+}
+.tokenomicsApp {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: start;
+  align-items: center;
+}
+.tokenomicsApp #tokenomicsTitle {
+  text-align: center;
+  color: rgba(185, 91, 75, 0.808);
+  padding: 0;
+  margin: 0;
+  font-family: CarterOne;
+}
+.tokenomicsApp:not(#tokenomicsTitle) {
+  font-family: Changa;
+}
+.pie-chart {
+  background: radial-gradient(
+      circle closest-side,
+      #04162e 0,
+      #04162e 30.75%,
+      transparent 30.75%,
+      transparent 75%,
+      #04162e 0
+    ),
+    conic-gradient(
+      #4e79a7 0,
+      #4e79a7 45%,
+      #f28e2c 0,
+      #f28e2c 60%,
+      #e15759 0,
+      #e15759 75%,
+      #76b7b2 0,
+      #76b7b2 85%,
+      #59a14f 0,
+      #59a14f 95%,
+      #edc949 0,
+      #edc949 100%
+    );
+  position: relative;
+  width: 350px;
+  min-height: 500px;
+  margin: 0;
+
+  outline: 1px solid rgba(88, 88, 88, 0.61);
+}
+.pie-chart h3 {
+  position: absolute;
+  margin: 1rem;
+  font-size: 1.3em;
+  color: white;
+}
+.pie-chart cite {
+  position: absolute;
+  bottom: 0;
+  font-size: 80%;
+  padding: 1rem;
+  color: gray;
+}
+.pie-chart figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-size: smaller;
+  text-align: right;
+  color: white;
+}
+.pie-chart span:after {
+  display: inline-block;
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.4em;
+  height: 0.8em;
+  border-radius: 0.2em;
+  background: currentColor;
+}
+
+#tokenomicsInfo {
+  color: white;
+  background: rgba(38, 58, 156, 0.2);
+  background: linear-gradient(
+    50deg,
+    rgba(38, 58, 156, 0.3),
+    rgba(252, 70, 107, 0.1) 100%
+  );
+  border: 1px solid rgba(252, 70, 106, 0.144);
+  width: 350px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .pie-chart {
+    width: 550px;
+  }
+  #tokenomicsInfo {
+    width: 550px;
+  }
+}

@@ -1,0 +1,42 @@
+.compContainer {
+  /* width: 375px; */
+  margin-top: 50px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20vw;
+}
+.moonContainer {
+  display: flex;
+  flex-direction: column;
+}
+.sinfo {
+  margin-top: 45px;
+  /* margin-left: 35px; */
+}
+.iphoneContainer {
+  width: 280px;
+  height: 600px;
+  margin-top: 0px;
+}
+
+.infoContainer {
+  width: 400px;
+  height: 400px;
+}
+@media only screen and (min-width: 1000px) {
+  .mainContainer {
+    max-width: 1440px;
+  }
+  .compContainer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .moonContainer {
+    display: block;
+  }
+}

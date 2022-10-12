@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "alt": "amazoni",
+    "url": "images/parteners/amazoni.jpeg"
+  },
+  {
+    "id": 2,
+    "alt": "bluecate",
+    "url": "images/parteners/bluecate.jpeg"
+  },
+  {
+    "id": 3,
+    "alt": "cloudman",
+    "url": "images/parteners/cloudman.jpeg"
+  },
+  {
+    "id": 4,
+    "alt": "cryptoswap",
+    "url": "images/parteners/cryptoswap.jpeg"
+  },
+  {
+    "id": 5,
+    "alt": "cryptotracker",
+    "url": "images/parteners/cryptotracker.jpeg"
+  },
+  {
+    "id": 6,
+    "alt": "damiler",
+    "url": "images/parteners/damiler.jpeg"
+  },
+  {
+    "id": 7,
+    "alt": "etherum",
+    "url": "images/parteners/etherum.jpeg"
+  },
+  {
+    "id": 8,
+    "alt": "fanatikks",
+    "url": "images/parteners/fanatikks.jpeg"
+  },
+  {
+    "id": 9,
+    "alt": "formulah",
+    "url": "images/parteners/formulah.jpeg"
+  },
+  {
+    "id": 10,
+    "alt": "macrosoft",
+    "url": "images/parteners/macrosoft.jpeg"
+  },
+  {
+    "id": 11,
+    "alt": "manfroggo",
+    "url": "images/parteners/manfroggo.jpeg"
+  },
+  {
+    "id": 12,
+    "alt": "metatask",
+    "url": "images/parteners/metatask.jpeg"
+  },
+  {
+    "id": 13,
+    "alt": "mobiloto",
+    "url": "images/parteners/mobiloto.jpeg"
+  },
+  {
+    "id": 14,
+    "alt": "penubra",
+    "url": "images/parteners/penubra.jpeg"
+  },
+  {
+    "id": 15,
+    "alt": "redline",
+    "url": "images/parteners/redline.jpeg"
+  },
+  {
+    "id": 16,
+    "alt": "safebank",
+    "url": "images/parteners/safebank.jpeg"
+  },
+  {
+    "id": 17,
+    "alt": "tezla",
+    "url": "images/parteners/tezla.jpeg"
+  },
+  {
+    "id": 18,
+    "alt": "virtusrok",
+    "url": "images/parteners/virtusrok.jpeg"
+  },
+  {
+    "id": 19,
+    "alt": "wagmim",
+    "url": "images/parteners/wagmim.jpeg"
+  },
+  {
+    "id": 20,
+    "alt": "zentorno",
+    "url": "images/parteners/zentorno.jpeg"
+  }
+]

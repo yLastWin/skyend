@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  background-color: #04162e;
+  border-top: 1px solid #fb8500;
+}
+
+.footer-container {
+  width: 100%;
+  color: white;
+}
+.social_links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.social_links li {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.social_links a {
+  color: #d9e0ed;
+  text-decoration: none;
+}
+.footer-container i {
+  margin: 5px 0 0 20px;
+}

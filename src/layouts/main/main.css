@@ -1,0 +1,30 @@
+.forBgColor {
+  /* background-color: #04162e; */
+  background: rgb(4, 22, 46);
+  background: linear-gradient(
+    52deg,
+    rgba(4, 22, 46, 1) 41%,
+    rgba(65, 40, 59, 1) 80%,
+    rgba(236, 150, 99, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.mainContainer {
+  width: 100vw;
+  /* height: 850px; */
+  min-height: 600px;
+  height: 100%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+.starfieldContainer {
+  position: absolute;
+  z-index: -2;
+}

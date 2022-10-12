@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Iulian B",
+    "position": "Founder",
+    "url": "images/team/member1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ghenadie Dumitru",
+    "position": "Blockchain Developer",
+    "url": "images/team/member2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dacian David",
+    "position": "Backend Developer",
+    "url": "images/team/member3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Isac Lorena",
+    "position": "UI & UX Developer",
+    "url": "images/team/member4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pompiliu Mihai",
+    "position": "Chief Marketing Officer",
+    "url": "images/team/member5.jpg"
+  }
+]

@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  background: #04162e;
+  /* scroll: none; */
+}
+
+.starfieldcontainer {
+  width: 100%;
+  height: 100%;
+}

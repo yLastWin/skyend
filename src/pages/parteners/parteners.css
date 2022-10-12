@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Carterone";
+  src: url(../../assets/fonts/CarterOne-Regular.ttf);
+}
+.OurParteners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OurParteners h2 {
+  color: rgba(185, 91, 75, 0.808);
+  margin-top: 0;
+  text-align: center;
+  font-family: CarterOne;
+}
+#partenersContainer {
+  margin-top: 50px;
+  width: 370px;
+  background: transparent;
+  border: 1px solid rgba(88, 88, 88, 0.767);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3px;
+  justify-content: center;
+}
+.partenersLogo {
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+}
+@media only screen and (min-width: 1000px) {
+  #partenersContainer {
+    width: 760px;
+    max-width: 1000px;
+    padding: 15px;
+  }
+}

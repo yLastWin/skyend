@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Michroma";
+  src: url(../../../assets/fonts/Michroma-Regular.ttf);
+}
+@font-face {
+  font-family: "Changa";
+  src: url(../../../assets/fonts/Changa-VariableFont_wght.ttf);
+}
+.nav-color {
+  background: rgb(4, 22, 46);
+
+  border-bottom: 1px solid #fb8500;
+}
+.main-nav {
+  font-family: Changa;
+}
+.navContainer {
+  max-width: 1440px;
+}
+.navLogo {
+  font-family: Michroma;
+  font-weight: 600;
+}
+
+#collasible-nav-dropdown {
+  font-family: Changa;
+}
