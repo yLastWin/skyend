@@ -11,7 +11,7 @@ import NetworkStatus from "./pages/networkStatus/networkStatus.jsx";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/">
             <Route index element={<Homepage />} />
@@ -23,7 +23,8 @@ function App() {
             <Route path="/calendar" element={<Calendarus />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Homepage />
     </div>
   );
 }
