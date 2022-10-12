@@ -11,7 +11,7 @@ import NetworkStatus from "./pages/networkStatus/networkStatus.jsx";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/">
             <Route index element={<Homepage />} />
